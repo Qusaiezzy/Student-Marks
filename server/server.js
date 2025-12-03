@@ -16,7 +16,7 @@ app.use(express.json());
 // -----------------------------
 // CONNECT MONGODB ATLAS
 // -----------------------------
-mongoose.connect("mongodb+srv://qusaiezzy53_db_user:qusaiezzy53_db_password@cluster0.yt6f7lm.mongodb.net/?appName=Cluster0")
+mongoose.connect("")
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.log(err));
 
